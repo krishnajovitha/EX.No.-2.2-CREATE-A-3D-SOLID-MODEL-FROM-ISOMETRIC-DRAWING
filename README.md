@@ -1,5 +1,5 @@
 # EX.No.-2.2 CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date :
+## Date :2-11-2016
 
 ## AIM: 
 
@@ -11,100 +11,52 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
-## STEP-2:  Select the Sketch Plane
- Select the TOP (XY) Plane
+## PROCEDURE :
+1. Base plate
+	• Open a new file and select create sketch. 
+	• Select the Top (XY) plane for the sketch.
+	• Draw two circles of R18 and R16 in both the right and left  sides with their centres 56 mm apart.
+	• Draw two lines in the top and bottom of the both circle and make it tangent to the outer circle and trim the unwanted parts.
+	• Finish the sketch and extrude them through the full 8 mm thickness.
+<img width="422" height="416" alt="Screenshot 2026-11-03 083423" src="https://github.com/user-attachments/assets/8fa9e53c-0ec7-4168-8357-5986d4065082" />
 
-## STEP-3: Create a Sketch 
-1.  Select Sketch > Rectangle > Center Rectangle.
-2.  Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.  Click once to begin placing the rectangle.
-4.  Type the Tab button and enter the values 56 mm and 18mm for the width and height respectively.
-5.  Select Sketch > Arc > Center point arc.
-6.  Click again to place the value (Both end of the sketch). You should see the cursor snap to this location
-7.  Type the Tab button and enter the values R 18mm
-8.  Select Sketch > circle > Center point circle.
-9.  Click again to place the value (Both side of the sketch). You should see the cursor snap to this location
-10. Type the Tab button and enter the values dia 16mm
-11. Click again to place the sketch.
-12. Click Finish Sketch after completing.
 
-## STEP-4: Extrude Sketch in XY Plane
-1.	Select Extrude.
-2.	Select the sketch.
-3.	Click again to place the value.
-4.	Type in the value of 8mm. 
-5.	Press ENTER to accept the value.
+2. Vertical support block
+	• Sketch a rectangle 40 mm × 10 mm on the top face of the base plate, positioned as shown (near the middle of the plate).
+	• Select Finish sketch and Extrude it upward so the total height from the base is 32 mm.
+<img width="562" height="504" alt="Screenshot 2026-11-03 083408" src="https://github.com/user-attachments/assets/162bd239-2e5b-4936-857a-80916854a8ad" />
 
-## STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
+3. Top arm
+	• On the top face of the vertical block ,At the end of the arm, sketch a Ø30 circle.
+	• With dimension 32 mm length from the circle to the vertical support block.
+	• Extrude it by -10 mm (the arm thickness).
+<img width="549" height="546" alt="Screenshot 2026-11-03 083537" src="https://github.com/user-attachments/assets/3f0322e4-dee6-4844-aa0e-5cf168c2b052" />
 
-## STEP-6: Select the Sketch Plane
-	Select the TOP SURFACE of the 3D block 
-  
-## STEP-7: Create a RECTANGLE 
-1.	Select Sketch > RECTANGLE  > CENTER RECTANGLE.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the RECTANGLE.
-4.	Type the Tab button and enter the values 40mm and 10mm for the width and height respectively
-5.	Click again to place the RECTANGLE.
-6.	Click Finish Sketch after completing.
+5. Top boss.
+	• Sketch a Ø20 circle concentric with it and finish the sketch.
+	• Extrude the circle by 10 mm .
+<img width="533" height="510" alt="Screenshot 2026-11-03 083631" src="https://github.com/user-attachments/assets/379b9ad9-b32a-4618-889f-25401f2d6b39" />
 
-## STEP-8:  Extrude RECTANGLE 
-1.	Select Extrude.
-2.	Select the Rectangle sketch.
-3.	Click again to place the value.
-4.	Type in the value of 32mm. 
-5.	Press ENTER to accept the value.
 
-## STEP-9: Create a TRIANGLE 
-1.	Select Sketch > TRIANGLE > CENTER TRIANGLE .
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the TRIANGLE.
-4.	Type the Tab button and enter the values 32mm and 12mm for the width and height respectively
-5.	Click again to place the TRIANGLE.
-6.	Click Finish Sketch after completing.
+6. Rib (triangular gusset)
+	• On the side plane of the block, draw a line to intersect both the base plate and vertical support block.
+	• Finish the sketch and select rib in the create tool bar and rib it by 12 m.
+	• Now the 3D model is completed.
+<img width="946" height="758" alt="Screenshot 2026-11-02 212401" src="https://github.com/user-attachments/assets/b4bb512e-75b5-4e53-ab19-cb98eca0e8cd" />
 
-## STEP-10:  Extrude TRIANGLE
-1.	Select Extrude.
-2.	Select the TRIANGLE sketch.
-3.	Click again to place the value.
-4.	Type in the value of 6mm in both direction option. 
-5.	Press ENTER to accept the value.
 
-## STEP-11: Create a PENTAGON 
-1.	Select Sketch > polygon > circumscribed polygon.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the polygon.
-4.	Type the Tab button and enter the values 40mm and 30mm, for the width and height respectively and Choose 3 Side
-5.	Click again to place the polygon.
-6.	Click Finish Sketch after completing.
 
-## STEP-12: Extrude PENTAGON
-1.	Select Extrude.
-2.	Select the PENTAGON sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm. 
-5.	Press ENTER to accept the value.
-
-## STEP-13: Create a CIRCLE 
-1.	Select Sketch > CIRCLE > CENTER CIRCLE.
-2.	Now hover over the origin (Pentagan end side) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the CIRCLE.
-4.	Type the Tab button and enter the value DIA 30mm and 20mm, inner and outer diameter respectively .
-5.	Click again to place the circle.
-6.	Click Finish Sketch after completing.
-
-## STEP-14:  Extrude CIRCLE 
-1.	Select Extrude.
-2.	Select the pentogan sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm on both side. 
-5.	Press ENTER to accept the value.
 
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198523331-05ace360-502b-4569-b9b4-31c60e3cd554.png)
 
 Output:
+
+
+<img width="946" height="758" alt="Screenshot 2026-11-02 212401" src="https://github.com/user-attachments/assets/1c7985fd-9b1b-478b-92e9-25d39af3d9fd" />
+
+<img width="1119" height="797" alt="Screenshot 2026-11-02 212838" src="https://github.com/user-attachments/assets/bfe67345-9aa9-4c3d-a496-d8a575b46026" />
+
 
 ## RESULT: 
 Thus, the 3D model is created from given isometric drawing.
